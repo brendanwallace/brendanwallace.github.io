@@ -2,7 +2,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
-# baseURL = "https://brendanwallace.github.io/"
+baseURL = "https://brendanwallace.github.io/"
 defaultContentLanguage = "en"
 # theme = "blowfish" <-- not necessary, because of the model.toml import
 
