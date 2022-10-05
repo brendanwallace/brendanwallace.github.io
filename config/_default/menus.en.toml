@@ -10,10 +10,6 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-name = "Home"
-pageRef = "/"
-weight = 1
 
 [[main]]
   name = "About"
@@ -39,11 +35,6 @@ weight = 1
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
-[[footer]]
-name = "Home"
-pageRef = "/"
-weight = 1
 
 [[footer]]
   name = "About"
