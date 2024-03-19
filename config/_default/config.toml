@@ -4,7 +4,7 @@
 
 baseURL = "https://brendanwallace.github.io/"
 defaultContentLanguage = "en"
-# theme = "blowfish" <-- not necessary, because of the model.toml import
+theme = "blowfish"
 
 
 enableRobotsTXT = true

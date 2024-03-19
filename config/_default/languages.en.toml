@@ -32,7 +32,7 @@ dateFormat = "January 2 2006"
   #   { foursquare = "https://foursquare.com/username" },
  { github = "https://github.com/brendanwallace" },
   #   { gitlab = "https://gitlab.com/username" },
-  #   { google = "https://www.google.com/" },
+  { google = "https://scholar.google.com/citations?user=JOy4h54AAAAJ" },
   #   { hashnode = "https://username.hashnode.dev" },
   #   { instagram = "https://instagram.com/username" },
   #   { keybase = "https://keybase.io/username" },

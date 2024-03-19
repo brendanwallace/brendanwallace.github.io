@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brendanwallace.github.io/sitemap.xml
