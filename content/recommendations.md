@@ -3,7 +3,7 @@ title: "Recommendations"
 draft: false
 ---
 
-Here are some of my favorite articles, videos or podcasts. Enjoy!
+Here are some of my favorite articles, videos and podcasts. Enjoy!
 
 
 ### On land use and transportation

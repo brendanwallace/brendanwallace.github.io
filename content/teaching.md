@@ -31,7 +31,7 @@ I wrote a series of 5 optional "advanced" homework assignments for introductory 
 
 > _These assignments test a theory I have: that while we cordone some topics off as "too advanced", they're actually not that hard to start to learn with a gentle introduction; and they're worth the effort.
 > More practically, everyone comes to a class from a different starting place, and with a different learning style.
-> These assignments give you an option to customize your experience: in exchange for doing a little more work you'll learn more (and maybe in way that works better for you), and you'll have more control over your schedule and pacing for the quarter._
+> These assignments give you an option to customize your experience: in exchange for doing a little more work you'll learn more (and maybe in a way that works better for you), and you'll have more control over your schedule and pacing for the quarter._
 
 If you want to check them out they're available here:
 [#1](/teaching/qsci292/advancedhomework/advanced_homework1.pdf), [#2](/teaching/qsci292/advancedhomework/advanced_homework2.pdf), [#3](/teaching/qsci292/advancedhomework/advanced_homework3.pdf),[#4](/teaching/qsci292/advancedhomework/advanced_homework4.pdf), [#5](/teaching/qsci292/advancedhomework/advanced_homework5.pdf)
