@@ -28,3 +28,22 @@
   pageRef = "recommendations"
   weight = 5
 
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  name = "Research"
+  pageRef = "research"
+  weight = 3
+
+[[footer]]
+  name = "Teaching"
+  pageRef = "teaching"
+  weight = 4
+
+[[footer]]
+  name = "Recommendations"
+  pageRef = "recommendations"
+  weight = 5
