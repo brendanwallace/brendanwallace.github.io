@@ -26,6 +26,8 @@ Here are some of my favorite articles, videos and podcasts. Enjoy!
 
 [_The Mundanity of Excellence_](https://academics.hamilton.edu/documents/themundanityofexcellence.pdf) by Daniel F. Chambliss
 
+[_Thinking, Fast and Slow_](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) by Daniel Kahneman
+
 ### On "the tech" (i.e. how to interact with people)
 
 [_What Shamu taught me about a happy marriage_](https://www.nytimes.com/2019/10/11/style/modern-love-what-shamu-taught-me-happy-marriage.html) by Amy Sutherland

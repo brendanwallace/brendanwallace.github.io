@@ -2,9 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Brendan Wallace</title>
-    <link>https://brendanwallace.github.io/topics/</link>
+    <link>http://localhost:1313/topics/</link>
     <description>Recent content in Topics on Brendan Wallace</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://brendanwallace.github.io/topics/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    
+    <atom:link href="http://localhost:1313/topics/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
