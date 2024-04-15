@@ -1,0 +1,12 @@
+---
+title: "summer 2024 bucket list"
+date: 2024-04-15
+draft: true
+---
+
+- buy a new bike
+- go on an overnight bike trip
+- go to santa fe institute's graduate summer workshop on computational complexity
+- play beach volleyball
+- tube on a river
+- float on green lake
