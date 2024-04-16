@@ -28,6 +28,11 @@
   pageRef = "recommendations"
   weight = 5
 
+[[main]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 6
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -47,3 +52,9 @@
   name = "Recommendations"
   pageRef = "recommendations"
   weight = 5
+
+
+[[footer]]
+  name = "Blog"
+  pageRef = "blog"
+  weight = 6

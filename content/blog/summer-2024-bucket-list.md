@@ -1,5 +1,5 @@
 ---
-title: "summer 2024 bucket list"
+title: "my summer 2024 bucket list"
 date: 2024-04-15
 draft: false
 ---
@@ -10,3 +10,4 @@ draft: false
 - play beach volleyball
 - tube on a river
 - float on green lake
+- plant clover and lay down woodchips in my front garden
