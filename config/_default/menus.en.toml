@@ -24,8 +24,8 @@
 
 
 [[main]]
-  name = "Recommendations"
-  pageRef = "recommendations"
+  name = "Links"
+  pageRef = "links"
   weight = 5
 
 
@@ -45,7 +45,7 @@
   weight = 4
 
 [[footer]]
-  name = "Recommendations"
-  pageRef = "recommendations"
+  name = "Links"
+  pageRef = "links"
   weight = 5
 
