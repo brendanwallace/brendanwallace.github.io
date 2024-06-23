@@ -7,7 +7,7 @@ draft: false
 
 My dissertation research is focused on general patterns in mobility and its applications for epidemiology, ecology, and sociology.
 
-I apply patterns in movement to model diseases that spread in high-risk locations.
+I apply patterns in mobility to model diseases that spread in high-risk locations.
 
 I investigate emergent animal transportation networks and a class of models called "active walkers" - agents which move through a 2-dimensional space and modify the path they walk on to leave a trail which makes it attractive for others to walk the same way.
 
