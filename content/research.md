@@ -7,11 +7,11 @@ draft: false
 
 My dissertation research is focused on general patterns in mobility and its applications for epidemiology, ecology, and sociology.
 
-The first chapter of my dissertation applies patterns in movement to epidemiology, to model diseases that spread in high-risk locations such as bars and restaurants and contributing to the literature on super spreading events.
+I apply patterns in movement to model diseases that spread in high-risk locations.
 
-My second chapter investigates animal transportation networks and a class of models called "active walkers" - agents which move through a 2-dimensional space and modify the path they walk on to leave a trail which makes it beneficial for other agents to walk along the same path.
+I investigate emergent animal transportation networks and a class of models called "active walkers" - agents which move through a 2-dimensional space and modify the path they walk on to leave a trail which makes it attractive for others to walk the same way.
 
-My third and fourth chapters adapt and expand upon the approach taken in [_The scales of human mobility_](https://www.nature.com/articles/s41586-020-2909-1), applying the approach to animals and investigating anthropological invariants related to daily travel budgets/time.
+I'm working to expand upon the approach taken in [_The scales of human mobility_](https://www.nature.com/articles/s41586-020-2909-1), to the approach to animals and investigating anthropological invariants related to daily travel budgets/time.
 
 
 ## Selected publications

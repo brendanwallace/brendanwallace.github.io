@@ -10,11 +10,11 @@ title = "Brendan Wallace"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
-dateFormat = "January 2 2006"
+dateFormat = "January 2, 2006"
 
 [author]
   name = "Brendan Wallace"
-  image = "/profile_with_hat.jpg"
+  image = "img/profile.jpg"
  # headline = "I'm only human"
   bio = "PhD student in Quantitative Ecology and Resource Management"
   links = [
