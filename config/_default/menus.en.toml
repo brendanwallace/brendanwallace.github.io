@@ -28,10 +28,6 @@
   pageRef = "recommendations"
   weight = 5
 
-[[main]]
-  name = "Blog"
-  pageRef = "blog"
-  weight = 6
 
 
 # -- Footer Menu --
@@ -53,8 +49,3 @@
   pageRef = "recommendations"
   weight = 5
 
-
-[[footer]]
-  name = "Blog"
-  pageRef = "blog"
-  weight = 6
