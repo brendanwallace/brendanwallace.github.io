@@ -11,8 +11,7 @@ I apply patterns in mobility to model diseases that spread in high-risk location
 
 I investigate emergent animal transportation networks and a class of models called "active walkers" - agents which move through a 2-dimensional space and modify the path they walk on to leave a trail which makes it attractive for others to walk the same way.
 
-I'm working to expand upon the approach taken in [_The scales of human mobility_](https://www.nature.com/articles/s41586-020-2909-1), to the approach to animals and investigating anthropological invariants related to daily travel budgets/time.
-
+I'm working to expand upon the approach taken in [_The scales of human mobility_](https://www.nature.com/articles/s41586-020-2909-1), to look for scales in animal mobility, and to investigate anthropological invariants.
 
 ## Selected publications
 
