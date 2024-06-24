@@ -8,7 +8,7 @@ draft: false
 
 ## Teaching experience
 
-I've served as a teaching assistant for math, computer science and ecology classes as an undergraduate at Brown University and as a MS and PhD student at University of Washington, including:
+I've been a teaching assistant for math, computer science and ecology classes at Brown University and the University of Washington.
 
 
 
