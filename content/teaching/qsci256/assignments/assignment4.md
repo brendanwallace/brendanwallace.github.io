@@ -6,6 +6,10 @@ draft: true
 
 ## More fun with lists
 
+- higher-order procedures
+	* map
+	* fold
+
 - reverse list
 - concatenate lists
 - subsets

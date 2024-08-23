@@ -97,11 +97,11 @@ Create a file called `lists.arr`.
 
 3. Write function `first-n` that takes a list `l` and a number `n`, and evaluates to a list made of only the first `n` elements of `l` (or the whole list `l` if `n` is greater than the length of `l`.)
 
-4. Write function `insert-nth` that takes a list `l`, a number `n` and a value `e`, and evaluates to the list `l` with element `e` inserted after the first `n` elements.
+4. Write function `insert-nth` that takes a list `l`, a number `n` and a value `e`, and evaluates to the list `l` with element `e` inserted after the first `n` elements (or at the end, if there are fewer than `n` elements in `l`).
 
-5. Write function `find-element` that takes a list `l` and an element `e` that is in `l`, and evaluates to the first position at which `e` occurs in the list `l`. For example, `find-element(link(1, link(2, link(3, empty))), 2) = 1`.
+5. Write function `find-element` that takes a list `l` and an element `e` that is in `l`, and evaluates to the first position at which `e` occurs in the list `l`. For example, `find-element(link(1, link(2, link(3, empty))), 2) = 1`. If the element doesn't exist in the list, you may return whatever value you'd like or `raise` an error.
 
-	_Hint: you will need to write a helper function with an acculumating index._
+	_Hint: you may want to write a helper function with an acculumating index._
 
 ## Turn in
 
