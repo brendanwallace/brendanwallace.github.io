@@ -1,7 +1,7 @@
 ---
 title: Assignment 4 - Data types
 geometry: margin=3cm
-draft: false
+draft: true
 ---
 
 ## More fun with lists
