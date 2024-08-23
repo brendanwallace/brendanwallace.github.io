@@ -32,7 +32,7 @@ mainSections = ["about", "projects", "teaching"]
   showDate = false
   #showViews = true
   #showLikes = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = false
   showBreadcrumbs = true
   showDraftLabel = false
@@ -50,11 +50,11 @@ mainSections = ["about", "projects", "teaching"]
   sharingLinks = []
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
   showTableOfContents = false
   showCards = false
-  groupByYear = true
+  groupByYear = false
 
 [sitemap]
   excludedKinds = []
