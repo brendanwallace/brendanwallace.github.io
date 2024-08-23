@@ -34,7 +34,7 @@ Include the following table definitions (from the textbook) in your definitions 
 3. Write function `oldest` that takes a Table with columns "name" and "age", and produces the "name" of the "row" with the largest "age".
 
 
-## Processing Lists
+## Lists
 
 You should reference [§5.2 in DCIC](https://dcic-world.org/2023-02-21/processing-lists.html) for techniques to solve the problems in this section, but you'll just need to know and use the following.
 
