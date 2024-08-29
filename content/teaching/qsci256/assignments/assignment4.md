@@ -19,6 +19,8 @@ as well.
 
 ## Higher-order functions
 
+Create a file called `higher-order-functions.arr`.
+
 ### Map
 
 Recall the function (from the textbook) to double every number in a list:
@@ -128,6 +130,8 @@ This recursive combination is called a _fold_.
 
 ## Harder list functions
 
+Create a file called `lists2.arr`
+
 5. Write a function `my-reverse` that consumes a list `l` and produces a new list with the same elements in reverse order.
 
 6. Write a function `my-concat` that consumes two lists `l-1` and `l-2`, and produces a list with all the elements from `l-1` followed by all the elements from `l-2`.
@@ -146,3 +150,7 @@ This recursive combination is called a _fold_.
 ```
 
 This problem is notoriously tough so please let me know if you'd like a hint.
+
+## Turn in
+
+Download `higher-order-functions.arr` and `lists2.arr` and submit them to gradescope.
