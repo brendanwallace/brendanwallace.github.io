@@ -93,6 +93,8 @@ Create a file called `lists.arr`.
 
 1. Write function `my-sum` that takes as input a list of numbers and evaluates to the sum of the numbers of the list.
 
+1.5 Write a function `my-multiply` that multiplies together all the numbers in a list. (Hint: what should `my-multiply` produce for an empty list?)
+
 2. Write function `exclaim` that takes a list of strings, and adds "!" to the end of them. (To concatenate two strings together, use the `+` operator. For example, `"hi" + "!"` evaluates to `"hi!"`.)
 
 3. Write function `first-n` that takes a list `l` and a number `n`, and evaluates to a list made of only the first `n` elements of `l` (or the whole list `l` if `n` is greater than the length of `l`.)
