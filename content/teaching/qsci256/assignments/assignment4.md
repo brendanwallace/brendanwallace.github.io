@@ -1,5 +1,5 @@
 ---
-title: Assignment 4 - More Fun with Lists and Recursion
+title: Assignment 4 - More with Lists & Recursion
 geometry: margin=3cm
 draft: false
 ---
@@ -44,7 +44,7 @@ In both cases, we recur through a list and apply some function to each element i
 Fortunately, we can write what's called a _higher-order_ function: a function that takes another function as one of its arguments! This works just the same as passing any other argument to the function.
 
 
-1. Write the higher-order function `my-map` that takes as input a list `l` and a function `func`, and produces a list made from applying `func` to every element in `l`. (This is called _mapping_ the function `func` across the list `l`.) This function begins with:
+1. Write the higher-order function `my-map` that takes as input a list `l` and a function `func`, and produces a list made from applying `func` to every element in `l`. (This is called _mapping_ the function `func` across the list `l`.) Start with:
 
 ````
     fun my-map(l, func):
@@ -52,7 +52,10 @@ Fortunately, we can write what's called a _higher-order_ function: a function th
     end
 ````
 
-2. Rewrite `my-doubles` and `exclaim` using `my-map`. You will need to write helper functions to use as `func` in each case.
+Within the body of the function, you'll be able to call `func` as if it's a function you already defined elsewhere.
+
+
+2. Rewrite `my-doubles` and `exclaim` using `my-map`. You will need to write helper functions to use as `func` in each case. (That is, you'll need to write a function `double-one` and `exclaim-one` that double a single number, and add an exclamation point to a single string, respectively.)
 
     You do not need to directly test `my-map`: the examples you write for `my-doubles` and `my-map` suffice to test it. 
 
