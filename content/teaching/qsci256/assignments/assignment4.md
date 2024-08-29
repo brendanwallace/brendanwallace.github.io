@@ -132,7 +132,7 @@ This recursive combination is called a _fold_.
 
 6. Write a function `my-concat` that consumes two lists `l-1` and `l-2`, and produces a list with all the elements from `l-1` followed by all the elements from `l-2`.
 
-7. Write a function `subsets` that consumes a list `l`, and produces a _list of lists_ where each list contains the elements of a single subset of `l`. For example, subsets should produce the following (subject to reordering):
+7. Write a function `subsets` that consumes a list `l`, and produces a _list of lists_ where each list contains the elements of a single subset of `l`. For example, `subsets` should produce the following (subject to reordering):
 
 ```
     subsets([list: ])
