@@ -49,12 +49,12 @@ Fortunately, we can write what's called a _higher-order_ function: a function th
 1. Write the higher-order function `my-map` that takes as input a list `l` and a function `func`, and produces a list made from applying `func` to every element in `l`. (This is called _mapping_ the function `func` across the list `l`.) Start with:
 
 ````
-    fun my-map(l, func):
+    fun my-map(func, l):
       ...
     end
 ````
 
-Within the body of the function, you'll be able to call `func` as if it's a function you already defined elsewhere.
+Within the body of the function, you'll be able to call `func` like any other function.
 
 
 2. Rewrite `my-doubles` and `exclaim` using `my-map`. You will need to write helper functions to use as `func` in each case. (That is, you'll need to write a function `double-one` and `exclaim-one` that double a single number, and add an exclamation point to a single string, respectively.)
@@ -82,7 +82,7 @@ __Optional:__ refactor `my-doubles` and `exclaim` from (2.) using anonymous func
 For example, to add 1 to every element in a list:
 
 ```
-    my-map([list: 1, 2, 3], lam(x): x + 1 end)
+    my-map(lam(x): x + 1 end, [list: 1, 2, 3])
     => [list: 2, 3, 4]
 ```
 
@@ -121,12 +121,12 @@ In short, the body of each function looks like this:
 This recursive combination is called a _fold_.
 
 
-3. Write the higher-order function `my-fold` that takes as input a list `l`, a value `base-value` and two-argument "combining" function `func`. If `l` is empty, `my-fold` evaluates to `base-value`, otherwise `my-fold` produces a new value by repeatedly applying `func`.
+3. Write the higher-order function `my-fold` that takes as input a two-argument "combining" function `func`, a value `base-value` and a list `l`. If `l` is empty, `my-fold` evaluates to `base-value`, otherwise `my-fold` produces a new value by repeatedly applying `func`.
 
 4. Use `my-fold` to rewrite `my-length` (finds the length of a list), `my-sum` and `my-multiply`. You may use anonymous functions or helper functions.
 
 
-
+_`map` and `fold` are built in to Pyret, and after you implement them yourself you are free to use the built-in versions for future problems and assignments._
 
 ## Harder list functions
 
@@ -135,6 +135,14 @@ Create a file called `lists2.arr`
 5. Write a function `my-reverse` that consumes a list `l` and produces a new list with the same elements in reverse order.
 
 6. Write a function `my-concat` that consumes two lists `l-1` and `l-2`, and produces a list with all the elements from `l-1` followed by all the elements from `l-2`.
+
+_After you implement `my-reverse` you are welcome to use the built in `reverse`. After you implement `my-concat`, you can concatenate lists in Pyret by using the `+` operator, for example,_
+
+```
+[list: 1, 2, 3] + [list: 4, 5]
+=> [list: 1, 2, 3, 4, 5]
+```
+
 
 7. Write a function `subsets` that consumes a list `l`, and produces a _list of lists_ where each list contains the elements of a single subset of `l`. For example, `subsets` should produce the following (subject to reordering):
 
