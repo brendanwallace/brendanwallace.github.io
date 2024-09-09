@@ -2,6 +2,7 @@
 title: Assignment 4 - More with Lists & Recursion
 geometry: margin=3cm
 draft: false
+date: February 11
 ---
 
 This assignment departs from the textbook, so there's nothing to read. I think this content is really cool, but it might be too hard to include in the actual class. And it may especially be too hard for you all since I can't do a lecture! If so, feel free to skip or just let me know.
@@ -59,12 +60,12 @@ Within the body of the function, you'll be able to call `func` like any other fu
 
 2. Rewrite `my-doubles` and `exclaim` using `my-map`. You will need to write helper functions to use as `func` in each case. (That is, you'll need to write a function `double-one` and `exclaim-one` that double a single number, and add an exclamation point to a single string, respectively.)
 
-    You do not need to directly test `my-map`: the examples you write for `my-doubles` and `my-map` suffice to test it. 
+    You do not need to directly test `my-map`: the examples you write for `my-doubles` and `exclaim` suffice to test it. 
 
 
 ### Anonymous functions
 
-Writing helper functions to use as inputs for `my-doubles` makes using high-order functions a lot more verbose. Fortunately, we can create functions _anonymously_ to use as arguments to our higher-order functions.
+Writing helper functions to use as inputs for `my-doubles` makes using high-order functions more verbose. Fortunately, we can create functions _anonymously_ to use as arguments to our higher-order functions.
 
 An anonymous function looks like this:
 
