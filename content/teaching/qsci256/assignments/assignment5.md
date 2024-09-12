@@ -132,7 +132,7 @@ __Optional challenge 2.__[^2] Write a function `is-tree-subtree` that determines
 
 (A tree is also a subtree of itself.)
 
-[^2]: Again, this is is quite hard. But if you're having fun with trees and want one more problem please have at it! If you need a hint: write a helper function `subtree-at-root` that determines whether one tree appears as a subtree _at the root_ (top position) of another tree. Your `is-tree-subtree` then makes use of this function recursively.
+[^2]: If you need a hint: write a helper function `subtree-at-root` that determines whether one tree appears as a subtree _at the root_ (top position) of another tree. Your `is-tree-subtree` can then make use of this function recursively.
 
 
 
