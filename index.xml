@@ -45,7 +45,13 @@ style="text-decoration-line: none !important;" href="#instructions" aria-label="
 &lt;/span>
 &lt;/h2>
 &lt;p>Read DCIC section §3.3 &amp;amp; §3.4 &lt;a href="https://dcic-world.org/" target="_blank">
-https://dcic-world.org/&lt;/a>. The main ideas are:&lt;/p></description></item><item><title>Assignment 3 - Tables &amp; Lists</title><link>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment3/</guid><description>&lt;h2 class="relative group">Tables
+https://dcic-world.org/&lt;/a>. The main ideas are:&lt;/p>
+&lt;ul>
+&lt;li>conditions &amp;amp; booleans&lt;/li>
+&lt;li>repeated expressions to functions&lt;/li>
+&lt;li>docstrings, testing and the design contract&lt;/li>
+&lt;/ul>
+&lt;p>So far, we&amp;rsquo;ve encountered &lt;em>values&lt;/em>, such as a particular images, numbers or strings; and &lt;em>expressions&lt;/em>, which are combinations of operations and values that &lt;em>evaluate to&lt;/em> single values.&lt;/p></description></item><item><title>Assignment 3 - Tables &amp; Lists</title><link>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment3/</guid><description>&lt;h2 class="relative group">Tables
 &lt;div id="tables" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -54,7 +60,34 @@ style="text-decoration-line: none !important;" href="#tables" aria-label="Anchor
 &lt;/span>
 &lt;/h2>
 &lt;p>Read &lt;a href="https://dcic-world.org/2023-02-21/intro-tabular-data.html" target="_blank">
-§4.1 in DCIC&lt;/a>.&lt;/p></description></item><item><title>Assignment 4 - More with Lists &amp; Recursion</title><link>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment4/</guid><description>&lt;p>This assignment departs from the textbook, so there&amp;rsquo;s nothing to read. I think this content is really cool, but it might be too hard to include in the actual class. And it may especially be too hard for you all since I can&amp;rsquo;t do a lecture! If so, feel free to skip or just let me know.&lt;/p></description></item><item><title>Links</title><link>https://brendanwallace.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/links/</guid><description>&lt;h2 class="relative group">Recommendations
+§4.1 in DCIC&lt;/a>.&lt;/p>
+&lt;h3 class="relative group">Table Problems
+&lt;div id="table-problems" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#table-problems" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>Create a file called &lt;code>tables.arr&lt;/code>.&lt;/p></description></item><item><title>Assignment 4 - More with Lists &amp; Recursion</title><link>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment4/</guid><description>&lt;p>This assignment departs from the textbook, so there&amp;rsquo;s nothing to read. I think this content is really cool, but it might be too hard to include in the actual class. And it may especially be too hard for you all since I can&amp;rsquo;t do a lecture! If so, feel free to skip or just let me know.&lt;/p></description></item><item><title>Assignment 5 - Structured Data</title><link>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/teaching/qsci256/assignments/assignment5/</guid><description>&lt;h2 class="relative group">Structured &amp;amp; conditional data
+&lt;div id="structured--conditional-data" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#structured--conditional-data" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Read &lt;a href="https://dcic-world.org/2023-02-21/intro-struct-data.html" target="_blank">
+§6.1 in DCIC&lt;/a>.&lt;/p>
+&lt;h3 class="relative group">Revisiting bar weights
+&lt;div id="revisiting-bar-weights" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#revisiting-bar-weights" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>We&amp;rsquo;re going to rewrite and expand our &lt;code>bar-weight&lt;/code> function from an earlier assignment using structured data. Start by creating a file &lt;code>weightlifting2.arr&lt;/code>.&lt;/p></description></item><item><title>Links</title><link>https://brendanwallace.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://brendanwallace.github.io/links/</guid><description>&lt;h2 class="relative group">Recommendations
 &lt;div id="recommendations" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
