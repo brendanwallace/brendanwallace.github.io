@@ -145,7 +145,7 @@ _After you implement `my-reverse` you are welcome to use the built in `reverse`.
 ```
 
 
-7. Write a function `subsets` that consumes a list `l`, and produces a _list of lists_ where each list contains the elements of a single subset of `l`. For example, `subsets` should produce the following (subject to reordering):
+__Optional challenge:__ Write a function `subsets` that consumes a list `l`, and produces a _list of lists_ where each list contains the elements of a single subset of `l`. For example, `subsets` should produce the following (subject to reordering):
 
 ```
     subsets([list: ])
@@ -158,8 +158,143 @@ _After you implement `my-reverse` you are welcome to use the built in `reverse`.
     => [list: [list: 1, 2], [list: 1], [list: 2], [list: ]]
 ```
 
-This problem is notoriously tough so please let me know if you'd like a hint.
+This problem is notoriously tough, scroll all the way down if you'd like any hints.
 
 ## Turn in
 
 Download `higher-order-functions.arr` and `lists2.arr` and submit them to gradescope.
+
+
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.
+#### Subset hint. 1
+
+Lets think about the list `[list: 1, 2]` and its 4 subsets:
+```
+[list: 1, 2], [list: 1], [list: 2], [list: ]
+```
+or
+```
+{1, 2}, {1}, {2}, {}
+```
+
+The subsets are made by considering each element of the original list, and either _including it_ or _not including it_ in the subset. So our program needs to figure out how to do the following:
+
+````
+          include 1?
+           /     \
+         yes     no
+        /          \
+    incude 2?      include 2?
+      /  \          /  \
+    yes   no      yes   no
+   /       \      /      \
+{1, 2}     {1}  {2}      {}
+````
+
+
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.
+#### Subset hint. 2
+Thinking recursively, we can break each step down like this:
+
+```
+          include 1?
+          /        \
+        yes         no
+        /            \
+   add 1 to          subsets of          
+  subsets of          [list: 2]
+  [list: 2]           
+```
+
+
+
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.\
+.
+#### Subset hint. 3
+To add `1` to the recursive subsets call, `map` `lam(x): link(1, x) end` over the recursive call.
