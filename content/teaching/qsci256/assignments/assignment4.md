@@ -2,7 +2,6 @@
 title: Assignment 4 - More with Lists & Recursion
 geometry: margin=3cm
 draft: false
-date: February 11
 ---
 
 This assignment departs from the textbook, so there's nothing to read. I think this content is really cool, but it might be too hard to include in the actual class. And it may especially be too hard for you all since I can't do a lecture! If so, feel free to skip or just let me know.
